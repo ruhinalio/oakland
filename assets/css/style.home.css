@@ -1,0 +1,287 @@
+.header .container nav a, .about-container p, .our-big-conatiner p {
+  color: #000;
+}
+
+.bring-container h2, .about-container h2, .our-big-conatiner h2 {
+  color: red;
+}
+
+.bring-container button a, .welding-container ul li, .our-big-conatiner button a, .throughout-container h2, .throughout-container p, .footer-container h2, .footer-container button a {
+  color: #fff;
+}
+
+.header, .bring, .about, .our-big {
+  background-color: #fff;
+}
+
+.throughout, .footer-container button {
+  background-color: red;
+}
+
+.bring-container button, .about-container .black, .our-big-conatiner button {
+  background-color: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.bg-picture {
+  position: fixed;
+  margin: 0 auto;
+  z-index: -1;
+}
+
+.header {
+  position: fixed;
+  z-index: 0;
+  width: 100%;
+  top: 0;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+}
+.header .container h1 {
+  font-size: x-large;
+  font-weight: 700;
+}
+.header .container nav a {
+  font-weight: 700;
+  margin: 0 1rem;
+  padding-bottom: 0.6rem;
+}
+.header .container nav a:hover {
+  border-bottom: 2px solid #000;
+}
+.header .container img {
+  display: none;
+}
+
+.bring {
+  margin-top: 4em;
+}
+.bring-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 9em 0;
+}
+.bring-container h2 {
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+}
+.bring-container button {
+  margin-top: 3rem;
+  padding: 1rem 2rem;
+}
+.bring-container button a {
+  font-size: x-large;
+  font-weight: 700;
+}
+.bring-container button:hover {
+  opacity: 0.7;
+}
+
+.transparent {
+  width: 100%;
+  height: 900px;
+}
+
+.about {
+  width: 100%;
+}
+.about-container {
+  padding: 5rem 0;
+}
+.about-container h2 {
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.about-container p {
+  font-size: x-large;
+  font-weight: 400;
+  text-align: center;
+  margin: 3rem 0;
+}
+.about-container .black {
+  width: 1000px;
+  height: 500px;
+  margin: 3rem auto;
+}
+
+.welding {
+  width: 100%;
+  background-color: red;
+}
+.welding-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.welding-container ul {
+  padding: 4rem 0;
+}
+.welding-container ul li {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.our-big {
+  width: 100%;
+}
+.our-big-conatiner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.our-big-conatiner h2 {
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  margin: 5rem 0 3rem 0;
+}
+.our-big-conatiner p {
+  font-size: x-large;
+  font-weight: 400;
+  text-align: center;
+  margin: 3rem 0;
+}
+.our-big-conatiner .images {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.our-big-conatiner .images img {
+  width: 390px;
+  margin: 0.5rem auto;
+}
+.our-big-conatiner button {
+  margin: 3rem auto;
+  padding: 1rem 2rem;
+}
+.our-big-conatiner button a {
+  font-size: x-large;
+  font-weight: 700;
+}
+.our-big-conatiner button:hover {
+  opacity: 0.7;
+}
+
+.throughout-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+.throughout-container h2 {
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  margin: 3rem 0;
+  text-align: start;
+}
+.throughout-container p {
+  font-size: x-large;
+  font-weight: 400;
+  text-align: center;
+  margin: 3rem 0;
+  text-align: start;
+}
+
+.footer {
+  background-color: #000;
+  margin: 0 auto;
+}
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-container h2 {
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  margin: 3rem 0;
+  text-align: center;
+}
+.footer-container button {
+  margin: 3rem auto;
+  padding: 1rem 2rem;
+}
+.footer-container button a {
+  font-size: x-large;
+  font-weight: 700;
+}
+.footer-container button:hover {
+  opacity: 0.7;
+}
+.footer-container .social {
+  margin: 3rem auto;
+}
+.footer-container .social img {
+  margin: 0 3rem;
+}
+
+@media only screen and (max-width: 991px) {
+  .header .container {
+    align-items: center;
+    max-width: 900px;
+  }
+  .header .container nav {
+    display: none;
+  }
+  .header .container img {
+    display: block !important;
+  }
+  .about-container .black {
+    max-width: 700px;
+  }
+  .our-big-container {
+    background-color: #000;
+  }
+  .our-big-container h1 {
+    font-size: 40px;
+  }
+  .our-big-container p {
+    font-size: large;
+  }
+  .our-big-container .images {
+    margin: 0 auto;
+  }
+  .our-big-container .images img {
+    display: block;
+  }
+  h2 {
+    font-size: 40px !important;
+  }
+  p {
+    font-size: large !important;
+  }
+  li {
+    font-size: 40px !important;
+  }
+  a {
+    font-size: large !important;
+  }
+}/*# sourceMappingURL=style.home.css.map */
